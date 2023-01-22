@@ -1,8 +1,22 @@
-import logo from "./logo.svg";
+import { Box } from "@mui/material";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ExcerciseDetails from "./pages/ExcerciseDetails";
+import Home from "./pages/Home";
 
 function App() {
-  return <div>welcome to gym application.</div>;
+  return (
+    <Box width="400px">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/excercise/:id" element={<ExcerciseDetails />}></Route>
+      </Routes>
+      <Footer />
+    </Box>
+  );
 }
 
 export default App;
