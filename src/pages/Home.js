@@ -11,12 +11,12 @@ const Home = () => {
       <Hero />
       <SearchExercises
         bodyPart={bodyPart}
-        setBodyPart={setBodyPart}
+        exercises={exercises}
         setExercises={setExercises}
       />
       <Exercises
         bodyPart={bodyPart}
-        setBodyPart={setBodyPart}
+        exercises={exercises}
         setExercises={setExercises}
       />
     </div>
