@@ -39,7 +39,7 @@ const Navbar = () => {
         >
           Home
         </Link>
-        <a
+        {/* <a
           href="#excercises"
           style={{
             textDecoration: "none",
@@ -47,7 +47,7 @@ const Navbar = () => {
           }}
         >
           Excercise
-        </a>
+        </a> */}
       </Stack>
     </Stack>
   );
