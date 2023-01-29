@@ -4,4 +4,4 @@
 
 Users can find their desire exercise with Gif Image and Youtube Videos
 
-<img src="/src/assets/images/banner-1.jpg" />
+<img src="/src/assets/images/Screenshot (90).png" />
